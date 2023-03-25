@@ -1,4 +1,4 @@
 # Jenkins-Hands-on
 
-## Deploy a Jenkins Server
+## [01_02 Challenge: Deploy a Jenkins server](./01_02%20Challenge%20Deploy%20a%20Jenkins%20Server/)
 - Deploy a Jenkins Server in ec2 instance
