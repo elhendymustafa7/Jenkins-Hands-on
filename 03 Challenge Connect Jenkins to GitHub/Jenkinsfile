@@ -12,7 +12,6 @@ pipeline {
                 // can be executed directly in a shell
                 dir("03 Challenge Connect Jenkins to GitHub/")
                 {
-                sh('pwd')
                 sh('chmod +x ./algorithm.sh')
                 }
             }
