@@ -10,12 +10,10 @@ pipeline {
             steps {
                 // this step is required to make sure the script
                 // can be executed directly in a shell
-                sh('pwd')
-                sh('ls')
                 dir("03 Challenge Connect Jenkins to GitHub/")
                 {
                 sh('pwd')
-                sh('chmod +x 03 ./algorithm.sh')
+                sh('chmod +x ./algorithm.sh')
                 }
             }
         }
