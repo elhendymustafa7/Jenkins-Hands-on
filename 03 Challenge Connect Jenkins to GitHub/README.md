@@ -31,7 +31,7 @@ _*This challenge should take about 15 to 20 minutes to complete.*_
 
 - add webhook 
 
-![image](https://user-images.githubusercontent.com/58703269/227803751-d7143ede-5b17-4026-96d5-81034e27c03f.png)![image](https://user-images.githubusercontent.com/58703269/227803751-d7143ede-5b17-4026-96d5-81034e27c03f.png)
+![image](https://user-images.githubusercontent.com/58703269/227803751-d7143ede-5b17-4026-96d5-81034e27c03f.png)
 
 - add then edit in your repo to see new build
 
