@@ -10,13 +10,17 @@ pipeline {
             steps {
                 // this step is required to make sure the script
                 // can be executed directly in a shell
-                sh('echo hello > a.txt')
+                dir("03 Challenge Connect Jenkins to GitHub/")
+                {
                 sh('chmod +x 03 ./algorithm.sh')
+                }
             }
         }
         stage('Build') {
             steps {
                 // the algorithm script creates a file named report.txt
+                dir("03 Challenge Connect Jenkins to GitHub/")
+                {
                 sh('./algorithm.sh')
 
                 // this step archives the report
@@ -24,6 +28,7 @@ pipeline {
                     artifacts: '*.txt',
                     fingerprint: true,
                     onlyIfSuccessful: true
+                }
             }
         }
     }
