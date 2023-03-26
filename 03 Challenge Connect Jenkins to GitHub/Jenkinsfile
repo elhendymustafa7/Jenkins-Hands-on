@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 // the algorithm script creates a file named report.txt
-                sh('03\ Challenge\ Connect\ Jenkins\ to\ GitHub/algorithm.sh')
+                sh('./algorithm.sh')
 
                 // this step archives the report
                 archiveArtifacts allowEmptyArchive: true,
